@@ -42,8 +42,8 @@
             this.btn_Guardar = new System.Windows.Forms.Button();
             this.btn_Cancelar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbt_Mujer = new System.Windows.Forms.RadioButton();
             this.rbt_Hombre = new System.Windows.Forms.RadioButton();
+            this.rbt_Mujer = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,7 +102,6 @@
             // 
             // tb_Nombre
             // 
-            this.tb_Nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.tb_Nombre.Location = new System.Drawing.Point(129, 21);
             this.tb_Nombre.Name = "tb_Nombre";
             this.tb_Nombre.Size = new System.Drawing.Size(100, 20);
@@ -110,7 +109,6 @@
             // 
             // tb_Apellidos
             // 
-            this.tb_Apellidos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.tb_Apellidos.Location = new System.Drawing.Point(129, 59);
             this.tb_Apellidos.Name = "tb_Apellidos";
             this.tb_Apellidos.Size = new System.Drawing.Size(100, 20);
@@ -118,7 +116,6 @@
             // 
             // tb_Telefono
             // 
-            this.tb_Telefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.tb_Telefono.Location = new System.Drawing.Point(129, 100);
             this.tb_Telefono.Name = "tb_Telefono";
             this.tb_Telefono.Size = new System.Drawing.Size(100, 20);
@@ -126,7 +123,6 @@
             // 
             // tb_Edad
             // 
-            this.tb_Edad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.tb_Edad.Location = new System.Drawing.Point(129, 141);
             this.tb_Edad.Name = "tb_Edad";
             this.tb_Edad.Size = new System.Drawing.Size(100, 20);
@@ -134,7 +130,6 @@
             // 
             // tb_estatura
             // 
-            this.tb_estatura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.tb_estatura.Location = new System.Drawing.Point(129, 184);
             this.tb_estatura.Name = "tb_estatura";
             this.tb_estatura.Size = new System.Drawing.Size(100, 20);
@@ -142,24 +137,22 @@
             // 
             // btn_Guardar
             // 
-            this.btn_Guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btn_Guardar.Location = new System.Drawing.Point(61, 374);
             this.btn_Guardar.Name = "btn_Guardar";
             this.btn_Guardar.Size = new System.Drawing.Size(75, 23);
             this.btn_Guardar.TabIndex = 11;
             this.btn_Guardar.Text = "Guardar";
-            this.btn_Guardar.UseVisualStyleBackColor = false;
+            this.btn_Guardar.UseVisualStyleBackColor = true;
             this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
             // 
             // btn_Cancelar
             // 
-            this.btn_Cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btn_Cancelar.Location = new System.Drawing.Point(155, 374);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(75, 23);
             this.btn_Cancelar.TabIndex = 12;
             this.btn_Cancelar.Text = "Cancelar";
-            this.btn_Cancelar.UseVisualStyleBackColor = false;
+            this.btn_Cancelar.UseVisualStyleBackColor = true;
             this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
             // 
             // groupBox1
@@ -173,17 +166,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Genero :";
             // 
-            // rbt_Mujer
-            // 
-            this.rbt_Mujer.AutoSize = true;
-            this.rbt_Mujer.Location = new System.Drawing.Point(142, 45);
-            this.rbt_Mujer.Name = "rbt_Mujer";
-            this.rbt_Mujer.Size = new System.Drawing.Size(51, 17);
-            this.rbt_Mujer.TabIndex = 15;
-            this.rbt_Mujer.TabStop = true;
-            this.rbt_Mujer.Text = "Mujer";
-            this.rbt_Mujer.UseVisualStyleBackColor = true;
-            // 
             // rbt_Hombre
             // 
             this.rbt_Hombre.AutoSize = true;
@@ -195,11 +177,21 @@
             this.rbt_Hombre.Text = "Hombre";
             this.rbt_Hombre.UseVisualStyleBackColor = true;
             // 
+            // rbt_Mujer
+            // 
+            this.rbt_Mujer.AutoSize = true;
+            this.rbt_Mujer.Location = new System.Drawing.Point(142, 45);
+            this.rbt_Mujer.Name = "rbt_Mujer";
+            this.rbt_Mujer.Size = new System.Drawing.Size(51, 17);
+            this.rbt_Mujer.TabIndex = 15;
+            this.rbt_Mujer.TabStop = true;
+            this.rbt_Mujer.Text = "Mujer";
+            this.rbt_Mujer.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(303, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_Cancelar);
